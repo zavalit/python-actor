@@ -1,0 +1,7 @@
+version: '2'
+services:
+  app:
+    build: .
+    volumes:
+      - .:/var/python-actor
+    working_dir: /var/python-actor
